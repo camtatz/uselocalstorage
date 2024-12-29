@@ -22,7 +22,8 @@ const useLocalStorage = <T>(key: string, defaultValue: T, opts?: Options<T>):[T,
         return {
             serializer: JSON.stringify,
             parser: JSON.parse,
-            logger: console.log
+            logger: console.log,
+            ...opts
         }
     }, [opts])
 
