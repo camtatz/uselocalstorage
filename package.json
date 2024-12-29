@@ -1,7 +1,11 @@
 {
   "name": "@ctatz/uselocalstorage",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A package that includes a react hook that interfaces with local storage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camtatz/uselocalstorage.git"
+  },
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -29,6 +33,7 @@
     "@testing-library/react": "^16.1.0",
     "@types/jest": "^29.5.1",
     "@types/node": "^18.16.0",
+    "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@types/testing-library__jest-dom": "^5.14.9",
     "jest": "^29.5.0",
@@ -40,6 +45,6 @@
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
-    "@types/react": "^18.2.0"
+    "react": "^18.2.0"
   }
 }
