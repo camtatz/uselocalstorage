@@ -9,13 +9,13 @@ A tiny package that provides a hook that interacts with localStorage.
 Install with npm
 
 ```bash
-  npm install uselocalstorage
+  npm install @ctatz/uselocalstorage
 ```
     
 ## Usage/Examples
 
 ```jsx
-import useLocalStorage from 'uselocalstorage'
+import useLocalStorage from '@ctatz/uselocalstorage'
 
 function Component() {
     const [value, setValue] = useLocalStorage("test", 1)
