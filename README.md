@@ -1,5 +1,5 @@
 
-# uselocalstorage
+# @ctatz/uselocalstorage
 
 A tiny package that provides a hook that interacts with localStorage.
 

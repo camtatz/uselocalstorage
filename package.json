@@ -1,5 +1,5 @@
 {
-  "name": "uselocalstorage",
+  "name": "@ctatz/uselocalstorage",
   "version": "1.0.0",
   "description": "A package that includes a react hook that interfaces with local storage",
   "main": "./dist/index.js",
