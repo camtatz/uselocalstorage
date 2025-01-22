@@ -15,6 +15,10 @@ Install with npm
 ## Usage/Examples
 
 ```jsx
+  // const [value, setterFunc] = useLocalStorage(key, initialValue)
+```
+
+```jsx
 import useLocalStorage from '@ctatz/uselocalstorage'
 
 function Component() {
